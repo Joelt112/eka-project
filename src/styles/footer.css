@@ -1,0 +1,56 @@
+.main
+{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+footer{
+    padding: 80px 13% 70px;
+}
+
+.foot {
+    
+   
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,auto));
+    gap:2.5rem;
+    background: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+
+}
+
+.content  {
+    color:#000;
+    margin-bottom:1.5rem;
+    font-size:20px;  
+
+    
+}
+.foot-cont h4{
+    color:#000;
+    margin-bottom:1.5rem;
+    font-size:20px; 
+}
+.foot-cont li{
+    list-style: none;
+}
+.foot-cont li a
+{
+display:block;
+color: #000;
+font-size: 15px;
+margin-bottom: 10px;
+font-weight: 400;
+transition:all.4s ease;
+text-decoration: none;
+
+}
+
+
+.foot-cont li a:hover{
+transform:translateY(-3px)translate(-5px);
+}

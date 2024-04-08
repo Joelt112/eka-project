@@ -3,7 +3,7 @@ import Banner from "./banner"
 import Quotes from "./quote";
 import Ghoonies  from "./ghoonies";
 import Programs from "./programs";
-
+import Ooter from "./footer";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from "./navbar";
@@ -35,8 +35,9 @@ const App = ()=> {
       <Timer/>
       <Autoshow/>
       <Roboticexpo/>
-      {/* <Programs/> */}
 
+      {/* <Programs/> */}
+      <Ooter/>
 
       
     </div>
