@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #DDDDDD;
 }
 
 footer{
@@ -15,7 +15,7 @@ footer{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(200px,auto));
     gap:2.5rem;
-    background: #fff;
+    background: #DDDDDD;
     left: 0;
     right: 0;
     bottom: 0;
@@ -28,7 +28,10 @@ footer{
     margin-bottom:1.5rem;
     font-size:20px;  
 
-    
+}
+.cont1
+{
+  margin-top: 10px;
 }
 .foot-cont h4{
     color:#000;
