@@ -6,15 +6,16 @@
 }
 
 footer{
-    padding: 80px 13% 70px;
+    padding: 80px 3% 70px;
 }
 
 .foot {
     
    
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,auto));
-    gap:2.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-around;
     background: #DDDDDD;
     left: 0;
     right: 0;
@@ -27,6 +28,7 @@ footer{
     color:#000;
     margin-bottom:1.5rem;
     font-size:20px;  
+    font-family: "Oswald", sans-serif; 
 
 }
 .cont1
@@ -37,6 +39,8 @@ footer{
     color:#000;
     margin-bottom:1.5rem;
     font-size:20px; 
+    font-family: "Oswald", sans-serif; 
+   
 }
 .foot-cont li{
     list-style: none;
@@ -52,7 +56,11 @@ transition:all.4s ease;
 text-decoration: none;
 
 }
-
+@media screen and (max-width: 600px) {
+    .foot {
+      flex-direction: column; /* Change to column layout on smaller screens */
+    }
+  }
 
 .foot-cont li a:hover{
 transform:translateY(-3px)translate(-5px);
