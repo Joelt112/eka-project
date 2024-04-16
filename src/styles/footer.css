@@ -35,12 +35,14 @@ footer{
 {
   margin-top: 10px;
 }
-.foot-cont h4{
+.foot-cont h3{
     color:#000;
     margin-bottom:1.5rem;
     font-size:20px; 
     font-family: "Oswald", sans-serif; 
-   
+}
+.foot-cont h4{
+    font-family: "Oswald", sans-serif; 
 }
 .foot-cont li{
     list-style: none;
@@ -51,6 +53,7 @@ display:block;
 color: #000;
 font-size: 15px;
 margin-bottom: 10px;
+margin-top: 5px;
 font-weight: 400;
 transition:all.4s ease;
 text-decoration: none;
@@ -60,8 +63,14 @@ text-decoration: none;
     .foot {
       flex-direction: column; /* Change to column layout on smaller screens */
     }
+
   }
 
-.foot-cont li a:hover{
+svg:hover{
+    transition:all.4s ease;
+transform:translateY(-3px)translate(-5px);
+}
+.foot-cont h4:hover{
+    transition:all.4s ease;
 transform:translateY(-3px)translate(-5px);
 }
